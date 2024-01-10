@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 DEBUG = True
 
 ALLOWED_HOSTS = ['8000-haloegen-django-blog-vebalvl4yp.us2.codeanyapp.com',
- '.herokuapp.com']
+ '.herokuapp.com', '8000-haloegen-djangoblog-xvzvie1sew3.ws-eu107.gitpod.io']
 
 
 # Application definition
@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_summernote',
     'blog',
 ]
 
